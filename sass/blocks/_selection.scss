@@ -1,0 +1,97 @@
+.selection {
+    min-height: 1000px;
+    &__text {
+        padding-right: 20px;
+        font-size: 14px;
+        line-height: 1.2;
+        font-weight: 300;
+        li {
+            margin-top: 20px;
+            list-style: square;
+            color: $main-color;
+        }
+        li span {
+            color: #555555;
+        }
+    }
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    &__item {
+        margin-top: 20px;
+        width: 300px;
+        height: 440px;
+        border: 2px solid #e8e8e8;
+        img {
+            display: block;
+            margin: 20px auto;
+            text-align: center;
+        }
+    }
+    &__title {
+        text-align: center;
+        font-size: 16px;
+        font-weight: 700;
+        color: #0d0d0d;
+    }
+    &__descr {
+        text-align: center;
+        line-height: 1.2;
+        margin-top: 15px;
+        font-size: 14px;
+        font-weight: 300;
+        color: #0d0d0d;
+    }
+    &__more {
+        display: block;
+        margin: 10px auto;
+        font-size: 14px;
+        font-weight: 500;
+        text-decoration: underline;
+        color: #c70101;
+        border: none;
+        text-transform: uppercase;
+        background-color: #fff;
+    }
+    &__line {
+        display: block;
+        margin: 9px auto;
+        width: 260px;
+        height: 1px;
+        background-color: #e8e8e8;
+    }
+    &__price {
+        margin-top: 5px;
+        margin-left: 20px;
+        text-decoration: line-through;
+        font-size: 14px;
+        font-weight: 300;
+        color: #555555;
+    }
+    &__discount {
+        margin-top: -3px;
+        margin-left: 20px;
+        font-size: 20px;
+        font-weight: 700;
+        color: #050505;
+    }
+    &__price-block {
+        margin-bottom: 27px;
+        display: flex;
+        flex-direction: column;
+    }
+    .button_buy {
+        margin-top: -46px;
+        margin-right: 18px;
+        align-self: flex-end;
+    }
+}
+.active {
+    display: block;
+}
+.none {
+    display: none;
+}

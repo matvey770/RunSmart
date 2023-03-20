@@ -1,0 +1,36 @@
+.feedback {
+    &__items {
+        padding-top: 70px;
+    }
+    &__item {
+        display: flex;
+    }
+    &__img {
+       height: calc(100% - 169px);
+    }
+    &__name {
+        margin-left: 63px;
+        font-size: 18px;
+        font-weight: 700;
+        color: #0d0d0d;
+    }
+    &__achiev {
+        margin-left: 63px;
+        font-size: 14px;
+        font-weight: 300;
+        color: #646464;
+    }
+    &__descr {
+        margin-right: 61px;
+        margin-left: 63px;
+        font-size: 16px;
+        line-height: 1.2;
+        font-weight: 300;
+        color: #0d0d0d;
+    }
+    hr {
+        background-color: #e8e8e8;
+        margin-top: 48px;
+        margin-bottom: 53px;
+    }
+}
